@@ -12,7 +12,7 @@ Uses glibc builds from https://github.com/mischnic/alpine-pkg-glibc
 
 Download size of this image is only:
 
-[![](https://images.microbadger.com/badges/image/mischnic/alpine-glibc.svg)](http://microbadger.com/images/mischnic/alpine-glibc "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/mischnic/alpine-glibc-arm.svg)](http://microbadger.com/images/mischnic/alpine-glibc-arm "Get your own image badge on microbadger.com")
 
 
 Usage Example
@@ -21,12 +21,12 @@ Usage Example
 This image is intended to be a base image for your projects, so you may use it like this:
 
 ```Dockerfile
-FROM mischnic/alpine-glibc
+FROM mischnic/alpine-glibc-arm
 
 COPY ./my_app /usr/local/bin/my_app
 ```
 
 ```sh
-$ docker build -t my_app .
+$ docker build -t alpine-glibc-arm .
 ```
 
